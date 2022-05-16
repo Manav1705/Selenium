@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: com.cm.qa.testCases.LoginPageTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 20.493 s <<< FAILURE! - in com.cm.qa.testCases.LoginPageTest
+loginPageTitleTest(com.cm.qa.testCases.LoginPageTest)  Time elapsed: 0.021 s  <<< FAILURE!
+java.lang.AssertionError: expected [CRMPRO  - CRM software for customer relationship management, sales, and support.] but found [CRMPRO - CRM software for customer relationship management, sales, and support.]
+	at com.cm.qa.testCases.LoginPageTest.loginPageTitleTest(LoginPageTest.java:32)
+
+loginTest(com.cm.qa.testCases.LoginPageTest)  Time elapsed: 0.145 s  <<< FAILURE!
+org.openqa.selenium.InvalidSelectorException: 
+Given xpath expression "//input[@type='submit'" is invalid: SyntaxError: Document.evaluate: The expression is not a legal expression
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-1U1212V', ip: '10.0.0.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 95.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211218203254, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 6420, moz:profile: C:\Users\MANAV CHOKSHI\AppD..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6a2bd6eb-a963-4408-a5ff-307df9ddeea9
+*** Element info: {Using=xpath, value=//input[@type='submit'}
+	at com.cm.qa.testCases.LoginPageTest.loginTest(LoginPageTest.java:41)
+
